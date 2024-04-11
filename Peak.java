@@ -1,6 +1,5 @@
 //Solution for peak finding problem
 import java.util.Scanner;
-// 123456
 public class Peak{
 
     public static void main(String[] args) {
