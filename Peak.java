@@ -24,7 +24,10 @@ public class Peak{
         }
 
         for (int j = 0; j < data.length; j++) {
-            if(j==0) {
+            if (data.length==1) {
+                System.out.println("Peak number: "+ data[j]);
+            }
+            else if(j==0) {
                 if (data[j] > data[j + 1] ) {
                     System.out.println("Peak number : " + data[j]);
                 }
